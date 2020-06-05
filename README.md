@@ -1,7 +1,7 @@
 # Design System
 
-- [Figma](https://www.figma.com/file/98sTTyxLPpsw5ozugao5Mj/Wayni---Design-System?node-id=2%3A2)
 - [Tailwind](https://tailwindcss.com/)
+- [Figma](https://www.figma.com/community/file/768809027799962739)
 
 **Exercise**: Recreate [Landing Page](https://www.figma.com/file/kkbVrelBGTQpC4xqFD0luU/Landing-Page?node-id=303%3A0) with plain html and talwind styles.
 
