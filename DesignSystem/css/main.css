@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+
+/* Extracted */
+
+.btn {
+  @apply px-10 py-4 rounded-full;
+}
+
+.btn-primary {
+  @apply bg-primary-500 text-white;
+}
+.btn-primary:hover {
+  @apply bg-secondary-500;
+}
+
+.btn-secondary {
+  @apply bg-white border border-gray-200 text-secondary-500;
+}
+.btn-secondary:hover {
+  @apply bg-secondary-500 text-white;
+}
+
+@tailwind utilities;
