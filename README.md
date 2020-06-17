@@ -65,7 +65,7 @@ What should my file structure look like? How should I group my action creators a
 
 ## /ReactLibrary Boilerplate
 
-Soon
+Soon: create-react-library, npm, github packages, storybook
 
 ---
 

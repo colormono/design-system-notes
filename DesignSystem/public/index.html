@@ -3,14 +3,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello world</title>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="/build/main.css">
   </head>
 
   <body class="antialiased">
+
+    <header class="container flex justify-between p-2 my-4">
+      <div class="">logo</div>
+
+      <div class="flex">
+        <div class="ml-2">item</div>
+        <div class="ml-2 font-bold text-primary-500">item</div>
+        <div class="ml-2 font-bold text-primary-500">item</div>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="container p-10">
+        <h1 class="text-4xl text-gray-700 font-bold block text-center">Personal loans made easy</h1>
+      </section>
+
+      <section class="container md:flex justify-around w-full">
+        <div class="px-4 text-center">
+          <div class="w-32 h-32 flex justify-center items-center">Icon</div>
+          <div>Easy Process</div>
+        </div>
+        <div class="px-4 text-center">
+          <div class="w-32 h-32 flex justify-center items-center">Icon</div>
+          <div>Easy Process</div>
+        </div>
+        <div class="px-4 text-center">
+          <div class="w-32 h-32 flex justify-center items-center">Icon</div>
+          <div>Easy Process</div>
+        </div>
+      </section>
+
+      <section class="md:flex justify-around">
+        <div class="field flex-grow mx-4">
+          <div class="rounded-md border border-red-500 block mb-1">
+            <label for="dni" class="block pt-1 px-2 text-gray-700">DNI o E-mail</label>
+            <input id="dni" type="text" placeholder="Sí, tenes que escribir acá..." class="px-2 py-1 block w-full focus:outline-none text-gray-800 rounded"/>
+          </div>
+          <small class="text-red-500">Texto de mensaje de error</small>
+        </div>
+        <div class="field flex-grow mx-4">
+          <div class="rounded-md border border-red-500 block mb-1">
+            <label for="dni" class="block pt-1 px-2 text-gray-700">DNI o E-mail</label>
+            <input id="dni" type="text" placeholder="Sí, tenes que escribir acá..." class="px-2 py-1 block w-full focus:outline-none text-gray-800 rounded"/>
+          </div>
+          <small class="text-red-500">Texto de mensaje de error</small>
+        </div>
+        <div class="field flex-grow mx-4">
+          <div class="rounded-md border border-red-500 block mb-1">
+            <label for="dni" class="block pt-1 px-2 text-gray-700">DNI o E-mail</label>
+            <input id="dni" type="text" placeholder="Sí, tenes que escribir acá..." class="px-2 py-1 block w-full focus:outline-none text-gray-800 rounded"/>
+          </div>
+          <small class="text-red-500">Texto de mensaje de error</small>
+        </div>
+        <div class="field flex-grow mx-4">
+          <button class="btn btn-primary transition duration-300 ease-in-out mr-4 font-bold mr-16">Submit</button>
+        </div>
+      </section>
+
+      <section class="bg-primary-500 o-create-tu-propia-clase-con-gradientes py-10 my-10 text-white">
+        <div class="container md:flex justify-around w-full">
+          <div class="px-4 text-center">
+            <div class="w-32 h-32 flex justify-center items-center">Icon</div>
+            <div>Easy Process</div>
+          </div>
+          <div class="px-4 text-center">
+            <div class="w-32 h-32 flex justify-center items-center">Icon</div>
+            <div>Easy Process</div>
+          </div>
+          <div class="px-4 text-center">
+            <div class="w-32 h-32 flex justify-center items-center">Icon</div>
+            <div>Easy Process</div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
     <div class="py-8 m-auto max-w-lg">
-      <h2 class="text-secondary-500 font-bold text-4xl lg:text-6xl">Botones</h2>
-      <button class="btn btn-primary transition duration-300 ease-in-out mr-4">Label</button>
+      <h2 class="text-secondary-500 font-bold text-2xl lg:text-4xl">Los Botones de la APp</h2>
+      <button class="btn btn-primary transition duration-300 ease-in-out mr-4 font-bold mr-16">Label</button>
       <button class="btn btn-secondary">Label</button>
     </div>
 

@@ -16,7 +16,7 @@ module.exports = {
         xs: ['11px', '14px'],
       },
       fontFamily: {
-        sans: ['Manrope', ...defaultTheme.fontFamily.sans],
+        sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         gray: {
@@ -35,7 +35,7 @@ module.exports = {
           200: '#0FD08B',
           300: '#000000',
           400: '#000000',
-          500: '#0FD08B',
+          500: '#02B0AF',
           600: '#000000',
           700: '#000000',
           800: '#000000',
