@@ -1,10 +1,11 @@
 {
-  "name": "DesignSystem",
+  "name": "design-system",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "live-server public & postcss css/main.css -o public/build/main.css -w",
+    "dev": "npm start",
     "build": "postcss css/main.css -o public/build/main.css "
   },
   "keywords": [],
