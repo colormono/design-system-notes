@@ -16,6 +16,7 @@ notes.key
 /**/node_modules
 /**/package-lock.json
 .DS_Store
+/_private
 /public/**/*.html
 /public/examples
 /public/components
