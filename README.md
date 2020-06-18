@@ -11,9 +11,9 @@
 
 ---
 
-## /DesignSystem Bolierplate
+## Design System Bolierplate
 
-In the `/DesignSystem` directory, run:
+In the `/design-system` directory, run:
 
 - `npm i` to install dependencies
 - `npm start` to listen chages while coding
@@ -33,7 +33,13 @@ You can scale this solution using with Webpack, Gulp, Rollup among others.
 
 ---
 
-## /ReactExampleApp Boilerplate
+## NextJs Boilerplate
+
+Details on `/nextjs-boilerplate` folder.
+
+---
+
+## React Apps
 
 Here we must write the project onboarding
 
@@ -44,28 +50,37 @@ What should my file structure look like? How should I group my action creators a
 
 - `/src/api`: fetching functions
 - `/src/assets`: images that are packaged within the bundle
-- `/src/components`: components that are reused in multiple places
-- `/src/config`: app global configuration, for example env variables
-- `/src/constants`: app constants, for example: a key value listo for handling errors
+- `/src/components`: hooks or presentational components that are used in multiple places
+- `/src/config`: app global configuration, for example env variables and constants
 - `/src/features`: app features, like holdings
-- `/src/hooks`: custom hooks
 - `/src/locales`: translations
 - `/src/pages`: page layouts, where each path on the router lands
-- `/src/redux`: store
-- `/src/utils`: various string utility functions
+- `/src/store`: redux store, reducers
+- `/src/utils`: utility functions
 
 ### Recommend packages
 
-- [React Redux](https://react-redux.js.org/api/hooks) and [Redux Toolkit](https://redux-toolkit.js.org/api/createSlice) to handle data state
-- [React Hook Form](https://react-hook-form.com/) to handle forms submission and [YUP](https://github.com/jquense/yup) for validation
-- [React Toastify](https://github.com/fkhadra/react-toastify) to show notifications for users
 - [Typescript](https://www.typescriptlang.org/) or [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html) for typechecking
+- [React Redux](https://react-redux.js.org/api/hooks) and [Redux Toolkit](https://redux-toolkit.js.org/api/createSlice) for state management
+- [React Hook Form](https://react-hook-form.com/) to handle forms submission and [YUP](https://github.com/jquense/yup) to validate user input
+- [Axios](https://github.com/axios/axios) to communicate with data services
+
+#### Sometimes, we also use...
+
+- [React Toastify](https://github.com/fkhadra/react-toastify) to show notifications for users
+- [React Table](https://github.com/tannerlinsley/react-table) for building fast and extendable tables and datagrids
+- **Just playing?** Try [Awesome React Components](https://github.com/brillout/awesome-react-components)
 
 ---
 
-## /ReactLibrary Boilerplate
+## React Library Boilerplate
 
-Soon: create-react-library, npm, github packages, storybook
+**Soon:**
+
+- create-react-library
+- document with storybook
+- add tests with jest
+- distribute with npm or github packages
 
 ---
 
