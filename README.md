@@ -55,7 +55,7 @@ What should my file structure look like? How should I group my action creators a
 - `/src/features`: app features, like holdings
 - `/src/locales`: translations
 - `/src/pages`: page layouts, where each path on the router lands
-- `/src/store`: redux store, reducers
+- `/src/redux`: store and reducers
 - `/src/utils`: utility functions
 
 ### Recommend packages
@@ -86,12 +86,22 @@ What should my file structure look like? How should I group my action creators a
 
 ## Good Reads
 
+#### Design
+
+- [The Technical Side of Design Systems Video](https://www.youtube.com/watch?v=TgWyyoofKIA)
+- [The Technical Side of Design Systems Notes](https://noti.st/bradfrost/Br5Tvf/the-technical-side-of-design-systems#s88q5Ot)
+- [Everything you need to know about skeleton screens](https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a)
+- _this list is incomplete_
+
+#### Development
+
+- [Create Your Own React Library in 2020: Step by Step](https://levelup.gitconnected.com/create-your-own-react-library-in-2020-step-by-step-7c39eb1b2d7b)
+- [Learn NextJs](https://nextjs.org/learn/basics/create-nextjs-app)
 - [How to use and maintain the store](https://redux-toolkit.js.org/tutorials/basic-tutorial)
 - [Building A Static Site With Components Using Nunjucks](https://www.smashingmagazine.com/2018/03/static-site-with-nunjucks/)
 - [Generate static sites using Webpack](https://medium.com/@ivarprudnikov/static-website-multiple-html-pages-using-webpack-3bdb7accffad)
 - [Webpack Nunjucks Boilerplate](https://github.com/kbytesys/webpack-nunjucks-boilerplate)
-- [Create Your Own React Library in 2020: Step by Step](https://levelup.gitconnected.com/create-your-own-react-library-in-2020-step-by-step-7c39eb1b2d7b)
-- [Learn NextJs](https://nextjs.org/learn/basics/create-nextjs-app)
+- [Create-react-app with Tailwind via PostCSS plus PurgeCSS](https://medium.com/@xijo/create-react-app-with-tailwind-via-postcss-plus-purgecss-5c36b4c33ba7)
 - _this list is incomplete_
 
 ---
