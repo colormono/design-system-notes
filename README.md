@@ -75,6 +75,8 @@ Soon: create-react-library, npm, github packages, storybook
 - [Building A Static Site With Components Using Nunjucks](https://www.smashingmagazine.com/2018/03/static-site-with-nunjucks/)
 - [Generate static sites using Webpack](https://medium.com/@ivarprudnikov/static-website-multiple-html-pages-using-webpack-3bdb7accffad)
 - [Webpack Nunjucks Boilerplate](https://github.com/kbytesys/webpack-nunjucks-boilerplate)
+- [Create Your Own React Library in 2020: Step by Step](https://levelup.gitconnected.com/create-your-own-react-library-in-2020-step-by-step-7c39eb1b2d7b)
+- [Learn NextJs](https://nextjs.org/learn/basics/create-nextjs-app)
 - _this list is incomplete_
 
 ---

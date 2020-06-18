@@ -12,12 +12,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "autoprefixer": "^9.8.0",
-    "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.4.6"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.2.0",
-    "live-server": "^1.2.1"
+    "autoprefixer": "^9.8.0",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^7.1.1"
   }
 }
