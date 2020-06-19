@@ -8,7 +8,7 @@ const links = [
 export default function Nav() {
   return (
     <nav className="flex justify-between items-center">
-      <ul className="flex space-x-4 py-8">
+      <ul className="flex space-x-8 py-8">
         <li>
           <Link href="/">
             <a className="text-blue-500 no-underline">Home</a>
@@ -17,6 +17,11 @@ export default function Nav() {
         <li>
           <Link href="/about">
             <a className="text-blue-500 no-underline">About</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/contact">
+            <a className="text-blue-500 no-underline">Contact Us</a>
           </Link>
         </li>
       </ul>
