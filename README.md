@@ -88,20 +88,30 @@ What should my file structure look like? How should I group my action creators a
 
 #### Design
 
+- [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/)
 - [The Technical Side of Design Systems Video](https://www.youtube.com/watch?v=TgWyyoofKIA)
 - [The Technical Side of Design Systems Notes](https://noti.st/bradfrost/Br5Tvf/the-technical-side-of-design-systems#s88q5Ot)
 - [Everything you need to know about skeleton screens](https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a)
 - _this list is incomplete_
 
-#### Development
+#### Frontend Development
 
+- https://redux.js.org/faq/organizing-state
+- [How to use and maintain the store](https://redux-toolkit.js.org/tutorials/basic-tutorial)
+- https://www.freecodecamp.org/news/the-best-way-to-architect-your-redux-app-ad9bd16c8e2d/
+- https://medium.com/@stanleyfok/designing-a-scalable-redux-architecture-f75fc4077b8
+- https://medium.com/xandr-tech/five-tips-for-working-with-redux-in-large-applications-89452af4fdcb
 - [Create Your Own React Library in 2020: Step by Step](https://levelup.gitconnected.com/create-your-own-react-library-in-2020-step-by-step-7c39eb1b2d7b)
 - [Learn NextJs](https://nextjs.org/learn/basics/create-nextjs-app)
-- [How to use and maintain the store](https://redux-toolkit.js.org/tutorials/basic-tutorial)
 - [Building A Static Site With Components Using Nunjucks](https://www.smashingmagazine.com/2018/03/static-site-with-nunjucks/)
 - [Generate static sites using Webpack](https://medium.com/@ivarprudnikov/static-website-multiple-html-pages-using-webpack-3bdb7accffad)
 - [Webpack Nunjucks Boilerplate](https://github.com/kbytesys/webpack-nunjucks-boilerplate)
 - [Create-react-app with Tailwind via PostCSS plus PurgeCSS](https://medium.com/@xijo/create-react-app-with-tailwind-via-postcss-plus-purgecss-5c36b4c33ba7)
+- _this list is incomplete_
+
+#### Data service communication
+
+- [Handling Access and Refresh Tokens using Axios Interceptors](https://medium.com/swlh/handling-access-and-refresh-tokens-using-axios-interceptors-3970b601a5da)
 - _this list is incomplete_
 
 ---
